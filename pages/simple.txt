@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Flappy Birdy</title>
+</head>
+
+<body>
+  <h1>Flappy Birdy!</h1>
+
+  <p>Welcome to Flappy Bird.</p>
+
+  <p>Here will be the game</p>
+
+  <p>How to play:</p>
+  <ul>
+    <li>Press SPACE to flap your wings.</li>
+    <li>Avoid the pipes.</li>
+    <li>If you crash, just try again!</li>
+  </ul>
+</body>
+
+</html>

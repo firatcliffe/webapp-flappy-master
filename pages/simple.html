@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Flap Birb</title>
+    <link rel="stylesheet" href="../assets/style.css"/>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+  </head>
+  <body>
+  <div class="container"> <!-- START Container -->
+    <div class="jumbotron">
+      <h1>Flap Birb</h1>
+      <p>Welcome to Flap Birb!</p>
+      <img src="../assets/balloons.png" />
+    </div>
+    <!-- START Main Content -->
+    <!-- START Game Zone -->
+    <div class="row">
+      <div class="col-xs-9">
+          <p id="gameLink">
+               <div id="game"></div>
+          </p>
+      </div>
+      <!-- END Game Zone -->
+      <!-- START Sidebar -->
+        <div class="col-xs-3">
+        <button type="button" class="btn btn-default" id="scoresbtn">Scores</button>
+        <button type="button" class="btn btn-default" id="creditsbtn">Credits</button>
+        <button type="button" class="btn btn-default" id="helpbtn">How to play</button>
+      </div>
+      <div id="content" class="col-xs-3"></div>
+      </div>
+    <!-- END Sidebar -->
+    <!-- START Screenshots -->
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../assets/screenshotStart.png" class="img-thumbnail img-responsive" />
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/screenshot.png" class="img-thumbnail img-responsive" />
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/screenshotOver.png" class="img-thumbnail img-responsive" />
+      </div>
+    </div>
+    <!-- END Screenshots -->
+  </div> <!-- END Container -->
+    <!-- START JQuery -->
+    <script type="text/javascript" src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../js/interactivity.js"></script>
+    <!-- END JQuery -->
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+    <script type="text/javascript" src="../js/flappy.js"></script>
+      </body>
+</html>
