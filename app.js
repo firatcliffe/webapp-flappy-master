@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static(path.join(__dirname, "")));
 
 app.get("/", function(request, response){
-    response.sendFile(path.join(__dirname, "pages/index.html"));
+    response.sendFile(path.join(__dirname, "pages/example.html"));
 });
 
 app.post('/score', function(request, response){
